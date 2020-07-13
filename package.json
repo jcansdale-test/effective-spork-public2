@@ -1,0 +1,24 @@
+{
+  "name": "@jcansdale-test/effective-spork-public",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "prepare": "dotnet publish -c Release --self-contained false -o publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcansdale-test/effective-spork-public.git"
+  },
+  "keywords": [],
+  "author": "Jamie Cansdale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcansdale-test/effective-spork-public/issues"
+  },
+  "homepage": "https://github.com/jcansdale-test/effective-spork-public#readme",
+  "dependencies": {
+    "@jcansdale-test/dotnet-runtime-osx-x64": "github:jcansdale-test/dotnet-runtime#osx-x64"
+  }
+}
